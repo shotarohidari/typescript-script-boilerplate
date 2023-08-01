@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
-    "vitest": "^0.31.0"
+    "vitest": "^0.34.0"
   },
   "type": "module"
 }
