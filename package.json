@@ -5,16 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "npx vitest",
-    "bin": "npx ts-node --esm --transpileOnly ./bin/bin.mts"
+    "bin": "npx tsx ./bin/bin.mts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^5.0.0"
-  },
   "devDependencies": {
-    "ts-node": "^10.9.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
     "vitest": "^0.34.0"
   },
   "type": "module"
